@@ -1,0 +1,415 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background: #007BFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('cleaning-bg.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FFD700;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #FFC107;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffffff;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-item {
+    background: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.about h1, .about h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+.about p {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Services */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background: #007BFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover, .active {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.services h1 {
+    font-size: 32px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #555;
+}
+
+/* Services Grid Layout */
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual Service Box */
+.service-item {
+    background: #f8f9fa;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Service Image */
+.service-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Service Title */
+.service-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Service Features List */
+.service-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-item ul li {
+    font-size: 16px;
+    color: #666;
+    margin: 8px 0;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+}
+
+.service-item ul li::before {
+    content: "✔";
+    color: #007BFF;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Call-to-Action Button */
+.cta {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.cta:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .service-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* Pricing Section */
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    background: #007BFF;
+    color: white;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pricing-plan .btn {
+    background: #007BFF;
+    color: white;
+}
+
+.pricing-plan .btn:hover {
+    background: #0056b3;
+}
+
+/* Testimonials */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.testimonial-item {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* FAQ */
+.faq {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.faq-item {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.footer-links a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media */
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .features, .service-container, .pricing-table {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimonial-item, .faq-item, form {
+        width: 90%;
+    }
+}

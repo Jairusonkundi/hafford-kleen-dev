@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Services | Home & Office Cleaning</title>
+    <meta name="description" content="Professional cleaning services for homes and offices. Book now for a spotless space!">
+    
+    <!-- CSS in <style> block -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background: #007BFF;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Contact Section Styling */
+        .contact {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact h1 {
+            text-align: center;
+            color: #007BFF;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* Section Styling */
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .contact-form,
+        .contact-details {
+            padding: 30px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form {
+            background: #fff;
+        }
+
+        .contact-details {
+            background: #fafafa;
+        }
+
+        /* Label Styling */
+        .contact form label {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        /* Input and Textarea Styling */
+        .contact form input,
+        .contact form textarea {
+            padding: 14px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        /* Focus Effects on Inputs and Textarea */
+        .contact form input:focus,
+        .contact form textarea:focus {
+            border-color: #007BFF;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+        }
+
+        /* Button Styling */
+        .contact form button {
+            padding: 14px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .contact form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Contact Details Section Styling */
+        .contact-details {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #fff;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-item:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .contact-item i {
+            font-size: 24px;
+            color: #007BFF;
+            margin-right: 15px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+
+        footer .footer-links {
+            margin-bottom: 15px;
+        }
+
+        footer .footer-links a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .social-media a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>   
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-section">
+            <!-- Contact Form Section -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details Section -->
+            <h1>Contact Details</h1>
+            <div class="contact-details">
+               
+                <div class="contact-item">
+                    <h3>Contact:</h3>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+254 723 081 879</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email:</h3>
+                    <i class="fas fa-envelope"></i>
+                    <p>info@haffordkleen.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Location:</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Ngure Plaza - Nairobi, Kenya.</p> 
+                    <p>Along Kangundo Road</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Office Hours:</h3>
+                    <i class="fas fa-clock"></i>
+                    <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="terms.html">Terms & Conditions</a> | 
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <p>&copy; 2025 Cleaning Services. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/profile.php?id=61572701775191" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/company/92478848/admin/dashboard/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>

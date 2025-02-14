@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafford Kleen Services Limited - Home</title>
+    <meta name="description" content="Professional cleaning services for homes and offices. Book now for a spotless space!">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #005a8d;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('cleaning-bg.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .cta {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .cta:hover {
+            background: #e68900;
+            transform: scale(1.1);
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px;
+            background: #fff;
+        }
+        .service {
+            margin: 20px;
+            text-align: center;
+            width: 300px;
+            opacity: 0;
+            transform: scale(0.8);
+            animation: popUp 1s ease-in forwards;
+        }
+        @keyframes popUp {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .service img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .service img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .social-media a {
+            color: #ff9800;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Hafford Kleen Services Limited</h1>
+        <p>Your trusted partner in cleaning, waste management, pest control, and property management.</p>
+        <a href="booking.html" class="cta">Book Now</a>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <img src="deep-cleaning.jpg" alt="Deep Cleaning">
+            <h3>Deep Cleaning</h3>
+        </div>
+        <div class="service">
+            <img src="office-cleaning.jpg" alt="Office Cleaning">
+            <h3>Office Cleaning</h3>
+        </div>
+        <div class="service">
+            <img src="home-cleaning.jpg" alt="Home Cleaning">
+            <h3>Home Cleaning</h3>
+        </div>
+        <div class="service">
+            <img src="pest-control.jpg" alt="Pest Control">
+            <h3>Pest Control</h3>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="terms.html">Terms & Conditions</a> | 
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <p>&copy; 2025 Hafford Kleen Services. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/profile.php?id=61572701775191" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/company/92478848/admin/dashboard/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
